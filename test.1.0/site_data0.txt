@@ -1,0 +1,292 @@
+
+Document
+2649131687 2    
+Description
+04-OPATB2/ET CGN
+Owner
+South African Airways 
+
+BSP UNITED ARAB EMIRATES
+Ticket Image
+PERIOD:
+2018052
+
+ISSUED BY:
+ South African Airways
+
+PASSENGER TICKET AND BAGGAGE CHECK
+CONJUNCTION TICKETS
+ORIGIN/DESTINATION
+DXBDXB
+
+
+AUDIT COUPON
+ITL TOURISM & TRAVEL
+8621018-0
+ 
+ 
+                                        0
+
+
+ENDORSEMENTS/RESTRICTIONS
+  AUTH/AIR/REF/3363/SA18
+
+BSP/
+AE
+
+BOOKING REF.
+AA/DSIVJS
+
+
+PASSENGER NAME  NOT TRANSFERABLE
+SHANNON/ALEXANDER RICHARD MR
+
+
+DATE OF ISSUE
+  14May18
+
+ISSUE IN EXCHANGE FOR
+ 00000000
+
+
+X/O
+NOT GOOD FOR PASSAGE FROM
+CARRIER
+FLIGHT
+CL
+DATE
+TIME
+ST
+FARE BASIS
+N.VALID B
+N.VALID A
+ALLOW
+ 
+
+ DXB-DUBAI
+
+SA   
+7155   
+Z  
+22May
+0350
+   OK
+ ZLRT1AE
+  22May
+  22May
+  40K
+O 
+TO
+ CPT-CAPE TOWN
+
+SA   
+7156   
+Z  
+ 24May
+1805
+   OK
+ ZLRT1AE
+  24May
+  24May
+  40K
+ 
+TO
+ DXB-DUBAI
+
+  
+  
+ 
+
+
+  
+  VOID
+ 
+ 
+ 
+ 
+TO
+ 
+
+  
+  
+ 
+
+
+  
+  VOID
+ 
+ 
+ 
+ 
+TO
+ 
+
+
+PCS
+ST
+U.
+PCS
+WT
+U.
+PCS
+WT
+U.
+PCS
+WT
+U.
+
+FARE
+AED IT
+
+FARE CALCULATION
+   DXB SA CPT1950.85SA DXB1950.85NUC3901.70END ROE3.67275
+
+EQUIV
+
+
+ 
+TAX
+AED 2,000.00 YR
+
+ 
+TAX
+AED 75.00 AE
+
+FORM OF PAYMENT
+CA     CASH
+  16,615.00
+INVOICE
+
+
+APP.CODE
+
+
+TOUR CODE
+ DELXHH
+
+TAX
+AED 210.00 XT
+
+CPN|
+|AIRLINE CODE|
+FROM & SERIAL NO.
+|CK.|
+0
+083 
+2649131687
+2
+
+ORIGINAL ISSUE
+TOTAL
+
+ 
+ AED IT
+
+
+REMITTANCE AREA
+083AED   14,330.00  0.00  9.98  2,285.00
+
+A/L AGENT INFO
+CASH 
+ AED
+14,330.00
+
+CREDIT 
+ AED
+0.00
+
+COMM% 
+  9.98
+
+TAX
+ AED
+ 2,000.00 YR
+
+TAX
+ AED
+75.00 AE
+
+TAX
+ AED
+210.00 XT
+
+CIF
+ 
+
+
+
+
+
+
+
+
+
+
+Additional Information
+Transaction Code
+TKTT
+
+GDS System
+SABRE
+
+Taxes - ISO
+YR
+ 2,000.00
+AE
+ 75.00
+TP
+ 5.00
+ZR
+ 10.00
+F6
+ 35.00
+ZA
+ 80.00
+WC
+ 60.00
+EV
+ 10.00
+UM
+ 10.00
+Total
+ 2,285.00
+
+Account Info.
+VAT/GST Amount
+0.00
+Agent Commission:
+( 9.98%) 1,430.00
+Cancellation Fees:
+ 0.00
+Cancellation Fees Commission.
+0.00
+On-line Billing Statement for the Agent:
+15,185.00
+Balance Payable to Airline:
+15,185.00
+
+
+ 
+
+
+
+
+
+
+Net Remit Info.
+Document
+Coupon
+Net
+Type
+Deal
+Incentive
+2649131687 2
+0
+O
+DELXHH
+1,430.00
+
+
+
+
+

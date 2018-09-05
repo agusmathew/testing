@@ -1,0 +1,5 @@
+ service_ticket_number | control_no |           pax_name           | sale_date  | flight_no | airline_name 
+-----------------------+------------+------------------------------+------------+-----------+--------------
+ 2649131687            | DSIVJS     | SHANNON/ALEXANDER RICHARD MR | 2018-05-14 |           | SAA
+(1 row)
+

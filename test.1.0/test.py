@@ -31,7 +31,7 @@ month_dict = {
 			 }
 
 
-booking = csv_to_dict.d
+booking = csv_to_dict.d_list
 # print booking
 n=int(raw_input("enter the number of files:"))
 for file_no in range(n):
@@ -62,35 +62,37 @@ for file_no in range(n):
 
 	# actual testing (testing from site values to db values)
 	# checking ticket number
-	if ticket_no:
-		if ticket_no in booking.values():
-			print "\n"+color.YELLOW+" TICKET NUMBER IS MATCHING "+color.END+color.BLUE+" PASS"+color.END,color.GREEN+ticket_no+color.END
-	# checking AIRLINE name
-	if raw_owner:
-		owner = ''
-		for each in raw_owner.split():
-			owner = owner + list(each)[0]
-		if owner in booking.values():
-			print "\n"+color.YELLOW+" AIRLINE NAME IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
-	# checking date of issue
-	if raw_date_of_issue:
-		date_of_issue = raw_date_of_issue[0]
-		month = re_month[0].strip() if re_month else None
-		raw_doi = date_of_issue.replace(month,"-"+month_dict[month]+"-")
-		year = raw_doi.split("-")[-1]
-		exc_doi = raw_doi.replace(year,"20"+year)
-		list_doi = exc_doi.split("-")
-		doi = list_doi[2]+"-"+list_doi[1]+"-"+list_doi[0]
-		# print doi
-	if doi:
-		if doi in booking.values():
-			print "\n"+color.YELLOW+" DATE OF ISSUE IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
-	if control_no:
-		if control_no in booking.values():
-			print "\n"+color.YELLOW+" CONTROL NUMBER IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
-	if passenger_name:
-		if passenger_name in booking.get("pax_name").strip():
-			print "\n"+color.YELLOW+" PASSENGER NAME IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
+	for each_entry in booking:
+		print len(booking),each_entry
+		if ticket_no:
+			if ticket_no in each_entry.values():
+				print "\n"+color.YELLOW+" TICKET NUMBER IS MATCHING "+color.END+color.BLUE+" PASS"+color.END,color.GREEN+ticket_no+color.END
+		# checking AIRLINE name
+		if raw_owner:
+			owner = ''
+			for each in raw_owner.split():
+				owner = owner + list(each)[0]
+			if owner in each_entry.values():
+				print "\n"+color.YELLOW+" AIRLINE NAME IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
+		# checking date of issue
+		if raw_date_of_issue:
+			date_of_issue = raw_date_of_issue[0]
+			month = re_month[0].strip() if re_month else None
+			raw_doi = date_of_issue.replace(month,"-"+month_dict[month]+"-")
+			year = raw_doi.split("-")[-1]
+			exc_doi = raw_doi.replace(year,"20"+year)
+			list_doi = exc_doi.split("-")
+			doi = list_doi[2]+"-"+list_doi[1]+"-"+list_doi[0]
+			# print doi
+		if doi:
+			if doi in each_entry.values():
+				print "\n"+color.YELLOW+" DATE OF ISSUE IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
+		if control_no:
+			if control_no in each_entry.values():
+				print "\n"+color.YELLOW+" CONTROL NUMBER IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
+		if passenger_name:
+			if passenger_name in each_entry.values():
+				print "\n"+color.YELLOW+" PASSENGER NAME IS MATCHING "+color.END+color.BLUE+" PASS"+color.END
 
 
 	# # general testing (testing db values in txt file of site)

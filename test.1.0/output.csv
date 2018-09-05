@@ -1,5 +1,6 @@
- service_ticket_number | control_no |           pax_name           | sale_date  | flight_no | airline_name 
------------------------+------------+------------------------------+------------+-----------+--------------
- 2649131687            | DSIVJS     | SHANNON/ALEXANDER RICHARD MR | 2018-05-14 |           | SAA
-(1 row)
+ flight_no | flying_carrier | sector_from | sector_to | departure_time | arrival_time | arrival_date | travel_date | service_ticket_number | airline_name | published_fare 
+-----------+----------------+-------------+-----------+----------------+--------------+--------------+-------------+-----------------------+--------------+----------------
+ 7155      |            465 | DXB         | CPT       | 03.50          | 11.35        | 2018-05-22   | 2018-05-22  | 2649131687            | SAA          |      14330.000
+ 7156      |            465 | CPT         | DXB       | 18.05          | 05.30        | 2018-05-25   | 2018-05-24  | 2649131687            | SAA          |      14330.000
+(2 rows)
 
